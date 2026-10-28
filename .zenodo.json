@@ -1,0 +1,43 @@
+{
+  "title": "QSP-TRIPLET-ER: quantitative systems pharmacology model and in silico trial of upfront versus second-line giredestrant and everolimus in advanced breast cancer",
+  "description": "Code and input files of a hypothesis-generating quantitative systems pharmacology model and in silico trial that compares upfront treatment with a CDK4/6 inhibitor, giredestrant and everolimus with sequential therapy in ER-positive, HER2-negative advanced breast cancer. The model uses only published, aggregate data; verification/SOURCE_VERIFICATION.md lists every published input with its source. Running run_all.R in R 4.5 with a C++ compiler and the packages Rcpp, jsonlite, deSolve, rpart, survival, ggplot2, patchwork, ggrepel, ggtext, ragg, openxlsx and zip regenerates all results, figures and tables (about 7 hours on a laptop computer with a 6-core processor). Code for the article 'Quantitative systems pharmacology insights into upfront versus second-line giredestrant and everolimus in advanced breast cancer'.",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "license": "mit",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Anil, Abhishek",
+      "affiliation": "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS) Bhubaneswar, India",
+      "orcid": "0000-0001-7289-2325"
+    },
+    {
+      "name": "Saravanan, Aswini",
+      "affiliation": "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS) Bhubaneswar, India",
+      "orcid": "0000-0001-6680-0762"
+    },
+    {
+      "name": "Roy, Sayantan Shankar",
+      "affiliation": "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS) Bhubaneswar, India",
+      "orcid": "0009-0005-2811-1997"
+    },
+    {
+      "name": "Hota, Debasish",
+      "affiliation": "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS) Bhubaneswar, India",
+      "orcid": "0000-0002-7339-1773"
+    },
+    {
+      "name": "Srinivasan, Anand",
+      "affiliation": "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS) Bhubaneswar, India",
+      "orcid": "0000-0002-0663-0922"
+    }
+  ],
+  "keywords": [
+    "quantitative systems pharmacology",
+    "in silico trial",
+    "breast cancer",
+    "giredestrant",
+    "everolimus",
+    "CDK4/6 inhibitor"
+  ]
+}
